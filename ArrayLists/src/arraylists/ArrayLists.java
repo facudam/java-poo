@@ -8,10 +8,11 @@ public class ArrayLists {
 
     public static void main(String[] args) {
         
-        List<Persona> lista = new ArrayList<Persona> ();
-        lista.add(new Persona(1, "Facundo", 34));
+        //List<Persona> lista = new ArrayList<Persona> ();
+        List<Persona> lista = new ArrayList<> (); //se infiere en tipo.
+        lista.add(new Persona(1, "Ignacio", 34));
         lista.add(new Persona(2, "Cualquiera", 54));
-        lista.add(new Persona(3, "Catalina", 28));
+        lista.add(new Persona(3, "Martina", 28));
         lista.add(new Persona(4, "Candy", 4));
         
         // Recorrer por índice:
